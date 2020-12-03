@@ -1,5 +1,8 @@
 Controlled vocabulary used by the CDSP.
-We used the [CESSDA Metadata Model] (https://doi.org/10.5281/zenodo.3236171)
+
+We used the 
+[CESSDA Metadata Model] (https://doi.org/10.5281/zenodo.3236171)
+
 
 citation.tsv:
 - [x] KindOfData -> kindOfDataType
