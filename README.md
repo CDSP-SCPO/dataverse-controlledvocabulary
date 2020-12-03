@@ -1,7 +1,9 @@
 Controlled vocabulary used by the CDSP.
 
 We used the 
-[CESSDA Metadata Model] (https://doi.org/10.5281/zenodo.3236171)
+[CESSDA Metadata Model](https://doi.org/10.5281/zenodo.3236171)
+
+Borschewski, Kerrin, Hermann, Julia, Zenk-Möltgen, Wolfgang, Bockaj, Brigita, Bolko, Irena, Vipavc Brvar, Irena, … Bell, Darren. (2019). CMM CESSDA Metadata Model (Version 0.1). Zenodo.
 
 
 citation.tsv:
