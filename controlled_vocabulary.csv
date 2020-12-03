@@ -1,0 +1,463 @@
+code,term_en,term_fr,block,field
+Individual,Individual,Individu,social_science,unitOfAnalysis
+OrganizationOrInstitution,Organization/Institution,Organisation / Institution,social_science,unitOfAnalysis
+Family,Family,Famille,social_science,unitOfAnalysis
+Family.HouseholdFamily,Family: Household family,Famille : ménage,social_science,unitOfAnalysis
+Household,Household,Ménage,social_science,unitOfAnalysis
+HousingUnit,Housing unit,Logement,social_science,unitOfAnalysis
+EventOrProcessOrActivity,Event/Process/Activity,Événement / Processus / Activité,social_science,unitOfAnalysis
+GeographicUnit,Geographic unit,Unité géographique,social_science,unitOfAnalysis
+PoliticalAdministrativeArea,Political-administrative area,Espace politico-administratif,social_science,unitOfAnalysis
+TimeUnit,Time unit,Unité de temps,social_science,unitOfAnalysis
+MediaUnit,Media unit,Média,social_science,unitOfAnalysis
+MediaUnit.Sound,Media unit: Sound,Média : son,social_science,unitOfAnalysis
+MediaUnit.StillImage,Media unit: Still image,Média : image fixe,social_science,unitOfAnalysis
+MediaUnit.Text,Media unit: Text,Média : texte,social_science,unitOfAnalysis
+MediaUnit.Video,Media unit: Video,Média : vidéo,social_science,unitOfAnalysis
+Group,Group,Groupe,social_science,unitOfAnalysis
+Object,Object,Objet,social_science,unitOfAnalysis
+Other,Other,Autre,social_science,unitOfAnalysis
+Interview,Interview,Entretien,social_science,collectionMode
+Interview.FaceToFace,Face-to-face interview,Entretien en face-à-face,social_science,collectionMode
+Interview.FaceToFace.CAPIorCAMI,Face-to-face interview: Computer-assisted (CAPI/CAMI),Entretien en face-à-face : assisté par ordinateur (CAPI / CAMI),social_science,collectionMode
+Interview.FaceToFace.PAPI,Face-to-face interview: Paper-and-pencil (PAPI),Entretien en face-à-face : papier et crayon (PAPI),social_science,collectionMode
+Interview.Telephone,Telephone interview,Entretien téléphonique,social_science,collectionMode
+Interview.Telephone.CATI,Telephone interview: Computer-assisted (CATI),Entretien téléphonique : assisté par ordinateur (CATI),social_science,collectionMode
+Interview.Email,E-mail interview,Entretien par e-mail,social_science,collectionMode
+Interview.WebBased,Web-based interview,Entretien par Internet,social_science,collectionMode
+SelfAdministeredQuestionnaire,Self-administered questionnaire,Questionnaire auto-administré,social_science,collectionMode
+SelfAdministeredQuestionnaire.Email,Self-administered questionnaire: E-mail,Questionnaire auto-administré : e-mail,social_science,collectionMode
+SelfAdministeredQuestionnaire.Paper,Self-administered questionnaire: Paper,Questionnaire auto-administré : papier,social_science,collectionMode
+SelfAdministeredQuestionnaire.SMSorMMS,Self-administered questionnaire: Messaging (SMS/MMS),Questionnaire auto-administré : par messagerie (SMS / MMS),social_science,collectionMode
+SelfAdministeredQuestionnaire.CAWI,Self-administered questionnaire: Web-based (CAWI),Questionnaire auto-administré : par Internet (CAWI),social_science,collectionMode
+SelfAdministeredQuestionnaire.CASI,Self-administered questionnaire: Computer-assisted (CASI),Questionnaire auto-administré : assisté par ordinateur (CASI),social_science,collectionMode
+FocusGroup,Focus group,Focus group,social_science,collectionMode
+FocusGroup.FaceToFace,Face-to-face focus group,Focus group en face-à-face,social_science,collectionMode
+FocusGroup.Telephone,Telephone focus group,Focus group par téléphone,social_science,collectionMode
+FocusGroup.Online,Online focus group,Focus group en ligne,social_science,collectionMode
+SelfAdministeredWritingsAndDiaries,Self-administered writings and/or diaries,Écrits et / ou journaux intimes auto-administrés,social_science,collectionMode
+SelfAdministeredWritingsAndDiaries.Email,Self-administered writings and/or diaries: E-mail,Écrits et / ou journaux intimes auto-administrés : e-mail,social_science,collectionMode
+SelfAdministeredWritingsAndDiaries.Paper,Self-administered writings and/or diaries: Paper,Écrits et / ou journaux intimes auto-administrés : papier,social_science,collectionMode
+SelfAdministeredWritingsAndDiaries.WebBased,Self-administered writings and/or diaries: Web-based,Écrits et / ou journaux intimes auto-administrés : en ligne,social_science,collectionMode
+Observation,Observation,Observation,social_science,collectionMode
+Observation.Field,Field observation,Observation sur le terrain,social_science,collectionMode
+Observation.Field.Participant,Participant field observation,Observation participante sur le terrain,social_science,collectionMode
+Observation.Field.Nonparticipant,Non-participant field observation,Observation non-participante sur le terrain,social_science,collectionMode
+Observation.Laboratory,Laboratory observation,Observation en laboratoire,social_science,collectionMode
+Observation.Laboratory.Participant,Participant laboratory observation,Observation participante en laboratoire,social_science,collectionMode
+Observation.Laboratory.Nonparticipant,Non-participant laboratory observation,Observation non-participante en laboratoire,social_science,collectionMode
+Observation.ComputerBased,Computer-based observation,Observation assistée par ordinateur,social_science,collectionMode
+Experiment,Experiment,Expérimentation,social_science,collectionMode
+Experiment.Laboratory,Laboratory experiment,Expérimentation en laboratoire,social_science,collectionMode
+Experiment.FieldIntervention,Field/Intervention experiment,Expérimentation sur le terrain,social_science,collectionMode
+Experiment.WebBased,Web-based experiment,Expérimentation par Internet,social_science,collectionMode
+Recording,Recording,Enregistrement,social_science,collectionMode
+ContentCoding,Content coding,Codage de contenu,social_science,collectionMode
+Transcription,Transcription,Transcription,social_science,collectionMode
+CompilationSynthesis,Compilation/Synthesis,Compilation / synthèse,social_science,collectionMode
+Summary,Summary,Résumé,social_science,collectionMode
+Aggregation,Aggregation,Agrégation,social_science,collectionMode
+Simulation,Simulation,Simulation,social_science,collectionMode
+MeasurementsAndTests,Measurements and tests,Mesures et tests,social_science,collectionMode
+MeasurementsAndTests.Educational,Educational measurements and tests,Mesures et tests d'enseignement,social_science,collectionMode
+MeasurementsAndTests.Physical,Physical measurements and tests,Mesures et tests de caractéristiques physiques,social_science,collectionMode
+MeasurementsAndTests.Psychological,Psychological measurements and tests,Mesures et tests psychologiques,social_science,collectionMode
+Other,Other,Autre,social_science,collectionMode
+TotalUniverseCompleteEnumeration,Total universe/Complete enumeration,Univers complet / dénombrement complet,social_science,samplingProcedure
+Probability,Probability,Probabiliste,social_science,samplingProcedure
+Probability.SimpleRandom,Probability: Simple random,Probabiliste : aléatoire simple,social_science,samplingProcedure
+Probability.SystematicRandom,Probability: Systematic random,Probabiliste : aléatoire systématique,social_science,samplingProcedure
+Probability.Stratified,Probability: Stratified,Probabiliste : stratifié,social_science,samplingProcedure
+Probability.Stratified.Proportional,Probability: Stratified: Proportional,Probabiliste : stratifié : proportionnel,social_science,samplingProcedure
+Probability.Stratified.Disproportional,Probability: Stratified: Disproportional,Probabiliste : stratifié : disproportionné,social_science,samplingProcedure
+Probability.Cluster,Probability: Cluster,Probabiliste : grappe,social_science,samplingProcedure
+Probability.Cluster.SimpleRandom,Probability: Cluster: Simple random,Probabiliste : grappe : aléatoire simple,social_science,samplingProcedure
+Probability.Cluster.StratifiedRandom,Probability: Cluster: Stratified random,Probabiliste : grappe : aléatoire stratifié,social_science,samplingProcedure
+Probability.Multistage,Probability: Multistage,Probabiliste : multi-étapes,social_science,samplingProcedure
+Nonprobability,Non-probability,Non probabiliste,social_science,samplingProcedure
+Nonprobability.Availability,Non-probability: Availability,Non probabiliste : disponibilité,social_science,samplingProcedure
+Nonprobability.Purposive,Non-probability: Purposive,Non probabiliste : raisonné,social_science,samplingProcedure
+Nonprobability.Quota,Non-probability: Quota,Non probabiliste : quota,social_science,samplingProcedure
+Nonprobability.RespondentAssisted,Non-probability: Respondent-assisted,Non probabiliste : participation volontaire,social_science,samplingProcedure
+MixedProbabilityNonprobability,Mixed probability and non-probability,Mixte probabiliste et non probabiliste,social_science,samplingProcedure
+Other,Other,Autre,social_science,samplingProcedure
+Longitudinal,Longitudinal,Longitudinale,social_science,timeMethod
+Longitudinal.CohortEventBased,Longitudinal: Cohort/Event-based,Longitudinale : cohorte / basée sur un événement,social_science,timeMethod
+Longitudinal.TrendRepeatedCrossSection,Longitudinal: Trend/Repeated cross-section,Longitudinale : tendance / transversale répétée,social_science,timeMethod
+Longitudinal.Panel,Longitudinal: Panel,Longitudinale : panel,social_science,timeMethod
+Longitudinal.Panel.Continuous,Longitudinal: Panel: Continuous,Longitudinale : panel : continu,social_science,timeMethod
+Longitudinal.Panel.Interval,Longitudinal: Panel: Interval,Longitudinale : panel : intervalle,social_science,timeMethod
+TimeSeries,Time series,Série temporelle,social_science,timeMethod
+TimeSeries.Continuous,Time series: Continuous,Série temporelle : continue,social_science,timeMethod
+TimeSeries.Discrete,Time series: Discrete,Série temporelle : discrète,social_science,timeMethod
+CrossSection,Cross-section,Transversale,social_science,timeMethod
+CrossSectionAdHocFollowUp,Cross-section ad-hoc follow-up,Transversale ponctuelle complémentaire,social_science,timeMethod
+Other,Other,Autre,social_science,timeMethod
+Questionnaire,Questionnaire,Questionnaire,social_science,researchInstrument
+Questionnaire.Structured,Structured questionnaire,Questionnaire structuré,social_science,researchInstrument
+Questionnaire.Semistructured,Semi-structured questionnaire,Questionnaire semi-structuré,social_science,researchInstrument
+Questionnaire.Unstructured,Unstructured questionnaire,Questionnaire non structuré,social_science,researchInstrument
+InterviewSchemeAndThemes,Interview scheme and/or themes,Schéma et / ou thèmes d'entretien,social_science,researchInstrument
+DataCollectionGuidelines,Data collection guidelines,Consignes de collecte de données,social_science,researchInstrument
+DataCollectionGuidelines.ObservationGuide,Data collection guidelines: Observation guide,Consignes de collecte de données : guide d'observation,social_science,researchInstrument
+DataCollectionGuidelines.DiscussionGuide,Data collection guidelines: Discussion guide,Consignes de collecte de données : guide de discussion,social_science,researchInstrument
+DataCollectionGuidelines.SelfAdministeredWritingsGuide,Data collection guidelines: Self-administered writings guide,Consignes de collecte de données : guide des écrits auto-administrés,social_science,researchInstrument
+DataCollectionGuidelines.SecondaryDataCollectionGuide,Data collection guidelines: Secondary data collection guide,Consignes de collecte de données : Guide de collecte de données secondaires,social_science,researchInstrument
+ParticipantTasks,Participant tasks,Tâches des participants,social_science,researchInstrument
+TechnicalInstruments,Technical instrument(s),Instrument(s) technique(s),social_science,researchInstrument
+ProgrammingScript,Programming script,Script de programmation,social_science,researchInstrument
+Other,Other,Autre,social_science,researchInstrument
+Numeric,Numeric,Nombre,citation,kindOfData
+Text,Text,Texte,citation,kindOfData
+StillImage,Still image,Image fixe,citation,kindOfData
+Geospatial,Geospatial,Données géospatiales,citation,kindOfData
+Audio,Audio,Audio,citation,kindOfData
+Video,Video,Vidéo,citation,kindOfData
+Software,Software,Logiciel,citation,kindOfData
+InteractiveResource,Interactive resource,Ressource interactive,citation,kindOfData
+ThreeD,3D,Représentation 3D,citation,kindOfData
+Other,Other,Autre,citation,kindOfData
+Demography,"DEMOGRAPHY (POPULATION, VITAL STATISTICS, AND CENSUSES)","DÉMOGRAPHIE (POPULATION, ÉTAT CIVIL, ET RECENSEMENT)",citation,topicClassValue
+Demography.Censuses,Censuses,Recensement,citation,topicClassValue
+Demography.Migration,Migration,Migration,citation,topicClassValue
+Demography.MorbidityAndMortality,Morbidity and mortality,Morbidité et mortalité,citation,topicClassValue
+Economics,ECONOMICS,ÉCONOMIE,citation,topicClassValue
+Economics.ConsumptionAndConsumerBehaviour,Consumption and consumer behaviour,Consommation et comportement des consommateurs,citation,topicClassValue
+Economics.EconomicConditionsAndIndicators,Economic conditions and indicators,Conditions et indicateurs économiques,citation,topicClassValue
+Economics.EconomicPolicyPublicExpenditureAndRevenue,"Economic policy, public expenditure and revenue","Politique économique, dépenses publiques et recettes",citation,topicClassValue
+Economics.EconomicSystemsAndDevelopment,Economic systems and development,Systèmes et développements économiques,citation,topicClassValue
+Economics.IncomePropertyAndInvestmentSaving,"Income, property and investment/saving","Revenu, propriété et placement / épargne",citation,topicClassValue
+Education,EDUCATION,ÉDUCATION,citation,topicClassValue
+Education.CompulsoryAndPreschoolEducation,Compulsory and pre-school education,Enseignement obligatoire et pré-scolaire,citation,topicClassValue
+Education.EducationalPolicy,Educational policy,Politique éducative,citation,topicClassValue
+Education.HigherAndFurtherEducation,Higher and further education,Enseignement secondaire et du supérieur,citation,topicClassValue
+Education.LifelongContinuingEducation,Life-long/continuing education,Formation tout au long de la vie / continue,citation,topicClassValue
+Education.VocationalEducationAndTraining,Vocational education and training,Enseignement et formation professionnels,citation,topicClassValue
+Health,HEALTH,SANTÉ,citation,topicClassValue
+Health.DietAndNutrition,Diet and nutrition,Alimentation et nutrition,citation,topicClassValue
+Health.DrugAbuseAlcoholAndSmoking,"Drug abuse, alcohol and smoking","Toxicomanie, alcool et tabagisme",citation,topicClassValue
+Health.GeneralHealthAndWellbeing,General health and well-being,Santé et bien-être,citation,topicClassValue
+Health.HealthCareServicesAndPolicies,Health care services and policies,Services et politiques de soins,citation,topicClassValue
+Health.MedicationAndTreatment,Medication and treatment,Médicaments et traitements,citation,topicClassValue
+Health.OccupationalHealth,Occupational health,Santé au travail,citation,topicClassValue
+Health.PhysicalFitnessAndExercise,Physical fitness and exercise,Condition et activité physique,citation,topicClassValue
+Health.PublicHealth,Public health,Santé publique,citation,topicClassValue
+Health.ReproductiveHealth,Reproductive health,Santé reproductive,citation,topicClassValue
+Health.SignsAndSymptomsPathologicalConditions,Signs and symptoms; pathological conditions,Signes et symptômes ; conditions pathologiques,citation,topicClassValue
+Health.SpecificDiseasesDisordersAndMedicalConditions,"Specific diseases, disorders and medical conditions","Maladies, troubles spécifiques et conditions médicales",citation,topicClassValue
+Health.WoundsAndInjuries,Wounds and injuries,Blessures et lésions,citation,topicClassValue
+History,HISTORY,HISTOIRE,citation,topicClassValue
+HousingAndLandUse,HOUSING AND LAND USE,LOGEMENT ET UTILISATION DES TERRES,citation,topicClassValue
+HousingAndLandUse.Housing,Housing,Logement,citation,topicClassValue
+HousingAndLandUse.LandUseAndPlanning,Land use and planning,Aménagement et planification du territoire,citation,topicClassValue
+LabourAndEmployment,LABOUR AND EMPLOYMENT,TRAVAIL ET EMPLOI,citation,topicClassValue
+LabourAndEmployment.EmployeeTraining,Employee training,Formation interne,citation,topicClassValue
+LabourAndEmployment.Employment,Employment,Emploi,citation,topicClassValue
+LabourAndEmployment.LabourAndEmploymentPolicy,Labour and employment policy,Politique du travail et de l'emploi,citation,topicClassValue
+LabourAndEmployment.LabourRelationsConflict,Labour relations/conflict,Relations / conflits au travail,citation,topicClassValue
+LabourAndEmployment.Retirement,Retirement,Retraite,citation,topicClassValue
+LabourAndEmployment.Unemployment,Unemployment,Chômage,citation,topicClassValue
+LabourAndEmployment.WorkingConditions,Working conditions,Conditions de travail,citation,topicClassValue
+LawCrimeAndLegalSystems,"LAW, CRIME AND LEGAL SYSTEMS","LOI, CRIMINALITÉ ET SYSTÈME LÉGAL",citation,topicClassValue
+LawCrimeAndLegalSystems.CrimeAndLawEnforcement,Crime and law enforcement,Criminalité et application de la Loi,citation,topicClassValue
+LawCrimeAndLegalSystems.LegislationAndLegalSystems,Legislation and legal systems,Législation et systèmes juridiques,citation,topicClassValue
+MediaCommunicationAndLanguage,"MEDIA, COMMUNICATION AND LANGUAGE","MÉDIA, COMMUNICATION ET LANGAGE",citation,topicClassValue
+MediaCommunicationAndLanguage.InformationSociety,Information society,Société de l'information,citation,topicClassValue
+MediaCommunicationAndLanguage.LanguageAndLinguistics,Language and linguistics,Langue et linguistiques,citation,topicClassValue
+MediaCommunicationAndLanguage.Media,Media,Média,citation,topicClassValue
+MediaCommunicationAndLanguage.PublicRelations,Public relations,Relations publiques,citation,topicClassValue
+NaturalEnvironment,NATURAL ENVIRONMENT,ENVIRONNEMENT NATUREL,citation,topicClassValue
+NaturalEnvironment.EnergyAndNaturalResources,Energy and natural resources,Énergie et ressources naturelles,citation,topicClassValue
+NaturalEnvironment.EnvironmentAndConservation,Environment and conservation,Environnement et conservation,citation,topicClassValue
+NaturalEnvironment.NaturalLandscapes,Natural landscapes,Paysages naturels,citation,topicClassValue
+NaturalEnvironment.PlantsAndAnimals,Plants and animals,Plantes et animaux,citation,topicClassValue
+Politics,POLITICS,POLITIQUE,citation,topicClassValue
+Politics.ConflictSecurityAndPeace,"Conflict, security and peace","Conflit, sécurité et paix",citation,topicClassValue
+Politics.Elections,Elections,Élections,citation,topicClassValue
+Politics.GovernmentPoliticalSystemsAndOrganisations,"Government, political systems and organisations","Gouvernement, systèmes et organisations politiques",citation,topicClassValue
+Politics.InternationalPoliticsAndOrganisations,International politics and organisations,Politiques et organisations internationales,citation,topicClassValue
+Politics.PoliticalBehaviourAndAttitudes,Political behaviour and attitudes,Comportements et attitudes politiques,citation,topicClassValue
+Politics.PoliticalIdeology,Political ideology,Idéologie politique,citation,topicClassValue
+Psychology,PSYCHOLOGY,PSYCHOLOGIE,citation,topicClassValue
+ScienceAndTechnology,SCIENCE AND TECHNOLOGY,SCIENCE ET TECHNOLOGIE,citation,topicClassValue
+ScienceAndTechnology.Biotechnology,Biotechnology,Biotechnologie,citation,topicClassValue
+ScienceAndTechnology.InformationTechnology,Information technology,Technologie de l'information,citation,topicClassValue
+SocialStratificationAndGroupings,SOCIAL STRATIFICATION AND GROUPINGS,STRATIFICATION ET GROUPES SOCIAUX,citation,topicClassValue
+SocialStratificationAndGroupings.Children,Children,Enfants,citation,topicClassValue
+SocialStratificationAndGroupings.Elderly,Elderly,Personnes âgées,citation,topicClassValue
+SocialStratificationAndGroupings.ElitesAndLeadership,Elites and leadership,Élites et dirigeants,citation,topicClassValue
+SocialStratificationAndGroupings.EqualityInequalityAndSocialExclusion,"Equality, inequality and social exclusion","Égalité, inégalité et exclusion sociale",citation,topicClassValue
+SocialStratificationAndGroupings.FamilyLifeAndMarriage,Family life and marriage,Vie de famille et mariage,citation,topicClassValue
+SocialStratificationAndGroupings.GenderAndGenderRoles,Gender and gender roles,Genre et rôles de genre,citation,topicClassValue
+SocialStratificationAndGroupings.Minorities,Minorities,Minorités,citation,topicClassValue
+SocialStratificationAndGroupings.SocialAndOccupationalMobility,Social and occupational mobility,Mobilité sociale et professionnelle,citation,topicClassValue
+SocialStratificationAndGroupings.Youth,Youth,Jeunes,citation,topicClassValue
+SocialWelfarePolicyAndSystems,SOCIAL WELFARE POLICY AND SYSTEMS,POLITIQUE ET SYSTÈMES DE PROTECTION SOCIALE,citation,topicClassValue
+SocialWelfarePolicyAndSystems.SocialWelfarePolicy,Social welfare policy,Politique de protection sociale,citation,topicClassValue
+SocialWelfarePolicyAndSystems.SocialWelfareSystemsStructures,Social welfare systems/structures,Systèmes / structures de protection sociale,citation,topicClassValue
+SocialWelfarePolicyAndSystems.SpecificSocialServicesUseAndAvailability,Specific social services: use and availability,Services sociaux spécifiques : utilisation et disponibilité,citation,topicClassValue
+SocietyAndCulture,SOCIETY AND CULTURE,SOCIÉTÉ ET CULTURE,citation,topicClassValue
+SocietyAndCulture.CommunityUrbanAndRuralLife,"Community, urban and rural life","Vie communautaire, urbaine et rurale",citation,topicClassValue
+SocietyAndCulture.CulturalActivitiesAndParticipation,Cultural activities and participation,Activités culturelles et participation,citation,topicClassValue
+SocietyAndCulture.CulturalAndNationalIdentity,Cultural and national identity,Identité culturelle et nationale,citation,topicClassValue
+SocietyAndCulture.LeisureTourismAndSport,"Leisure, tourism and sport","Loisirs, tourisme et sport",citation,topicClassValue
+SocietyAndCulture.ReligionAndValues,Religion and values,Religion et valeurs,citation,topicClassValue
+SocietyAndCulture.SocialBehaviourAndAttitudes,Social behaviour and attitudes,Comportement social et attitudes,citation,topicClassValue
+SocietyAndCulture.SocialChange,Social change,Changement social,citation,topicClassValue
+SocietyAndCulture.SocialConditionsAndIndicators,Social conditions and indicators,Conditions et indicateurs sociaux,citation,topicClassValue
+SocietyAndCulture.TimeUse,Time use,Emploi du temps,citation,topicClassValue
+TradeIndustryAndMarkets,"TRADE, INDUSTRY AND MARKETS","COMMERCE, INDUSTRIE ET MARCHÉS",citation,topicClassValue
+TradeIndustryAndMarkets.AgricultureAndRuralIndustry,Agriculture and rural industry,Industrie agricole et rurale,citation,topicClassValue
+TradeIndustryAndMarkets.BusinessIndustrialManagementAndOrganisation,Business/industrial management and organisation,Gestion et organisation de l'entreprise et de l'industrie,citation,topicClassValue
+TradeIndustryAndMarkets.ForeignTrade,Foreign trade,Commerce extérieur,citation,topicClassValue
+TransportAndTravel,TRANSPORT AND TRAVEL,TRANSPORT ET VOYAGE,citation,topicClassValue
+Other,OTHER,AUTRE,citation,topicClassValue
+Afghanistan,Afghanistan,Afghanistan (l'),geospatial,country
+Albania,Albania,Albanie (l'),geospatial,country
+Algeria,Algeria,Algérie (l'),geospatial,country
+American Samoa,American Samoa,Samoa américaines (les),geospatial,country
+Andorra,Andorra,Andorre (l'),geospatial,country
+Angola,Angola,Angola (l'),geospatial,country
+Anguilla,Anguilla,Anguilla,geospatial,country
+Antarctica,Antarctica,Antarctique (l'),geospatial,country
+Antigua and Barbuda,Antigua and Barbuda,Antigua-et-Barbuda,geospatial,country
+Argentina,Argentina,Argentine (l'),geospatial,country
+Armenia,Armenia,Arménie (l'),geospatial,country
+Aruba,Aruba,Aruba,geospatial,country
+Australia,Australia,Australie (l'),geospatial,country
+Austria,Austria,Autriche (l'),geospatial,country
+Azerbaijan,Azerbaijan,Azerbaïdjan (l'),geospatial,country
+Bahamas (the),Bahamas (the),Bahamas (les),geospatial,country
+Bahrain,Bahrain,Bahreïn,geospatial,country
+Bangladesh,Bangladesh,Bangladesh (le),geospatial,country
+Barbados,Barbados,Barbade (la),geospatial,country
+Belarus,Belarus,Bélarus (le),geospatial,country
+Belgium,Belgium,Belgique (la),geospatial,country
+Belize,Belize,Belize (le),geospatial,country
+Benin,Benin,Bénin (le),geospatial,country
+Bermuda,Bermuda,Bermudes (les),geospatial,country
+Bhutan,Bhutan,Bhoutan (le),geospatial,country
+Bolivia (Plurinational State of),Bolivia (Plurinational State of),Bolivie (État plurinational de),geospatial,country
+"Bonaire, Sint Eustatius and Saba","Bonaire, Sint Eustatius and Saba","Bonaire, Saint-Eustache et Saba",geospatial,country
+Bosnia and Herzegovina,Bosnia and Herzegovina,Bosnie-Herzégovine (la),geospatial,country
+Botswana,Botswana,Botswana (le),geospatial,country
+Bouvet Island,Bouvet Island,Bouvet (l'Île),geospatial,country
+Brazil,Brazil,Brésil (le),geospatial,country
+British Indian Ocean Territory (the),British Indian Ocean Territory (the),Indien (le Territoire britannique de l'océan),geospatial,country
+Brunei Darussalam,Brunei Darussalam,Brunéi Darussalam (le),geospatial,country
+Bulgaria,Bulgaria,Bulgarie (la),geospatial,country
+Burkina Faso,Burkina Faso,Burkina Faso (le),geospatial,country
+Burundi,Burundi,Burundi (le),geospatial,country
+Cabo Verde,Cabo Verde,Cabo Verde,geospatial,country
+Cambodia,Cambodia,Cambodge (le),geospatial,country
+Cameroon,Cameroon,Cameroun (le),geospatial,country
+Canada,Canada,Canada (le),geospatial,country
+Cayman Islands (the),Cayman Islands (the),Caïmans (les Îles),geospatial,country
+Central African Republic (the),Central African Republic (the),République centrafricaine (la),geospatial,country
+Chad,Chad,Tchad (le),geospatial,country
+Chile,Chile,Chili (le),geospatial,country
+China,China,Chine (la),geospatial,country
+Christmas Island,Christmas Island,Christmas (l'Île),geospatial,country
+Cocos (Keeling) Islands (the),Cocos (Keeling) Islands (the),Cocos (les Îles)/ Keeling (les Îles),geospatial,country
+Colombia,Colombia,Colombie (la),geospatial,country
+Comoros (the),Comoros (the),Comores (les),geospatial,country
+Congo (the Democratic Republic of the),Congo (the Democratic Republic of the),Congo (la République démocratique du),geospatial,country
+Congo (the),Congo (the),Congo (le),geospatial,country
+Cook Islands (the),Cook Islands (the),Cook (les Îles),geospatial,country
+Costa Rica,Costa Rica,Costa Rica (le),geospatial,country
+Croatia,Croatia,Croatie (la),geospatial,country
+Cuba,Cuba,Cuba,geospatial,country
+Curaçao,Curaçao,Curaçao,geospatial,country
+Cyprus,Cyprus,Chypre,geospatial,country
+Czechia,Czechia,Tchéquie (la),geospatial,country
+Côte d'Ivoire,Côte d'Ivoire,Côte d'Ivoire (la),geospatial,country
+Denmark,Denmark,Danemark (le),geospatial,country
+Djibouti,Djibouti,Djibouti,geospatial,country
+Dominica,Dominica,Dominique (la),geospatial,country
+Dominican Republic (the),Dominican Republic (the),dominicaine (la République),geospatial,country
+Ecuador,Ecuador,Équateur (l'),geospatial,country
+Egypt,Egypt,Égypte (l'),geospatial,country
+El Salvador,El Salvador,El Salvador,geospatial,country
+Equatorial Guinea,Equatorial Guinea,Guinée équatoriale (la),geospatial,country
+Eritrea,Eritrea,Érythrée (l'),geospatial,country
+Estonia,Estonia,Estonie (l'),geospatial,country
+Eswatini,Eswatini,Eswatini (l'),geospatial,country
+Ethiopia,Ethiopia,Éthiopie (l'),geospatial,country
+Falkland Islands (the) [Malvinas],Falkland Islands (the) [Malvinas],Falkland (les Îles)/Malouines (les Îles),geospatial,country
+Faroe Islands (the),Faroe Islands (the),Féroé (les Îles),geospatial,country
+Fiji,Fiji,Fidji (les),geospatial,country
+Finland,Finland,Finlande (la),geospatial,country
+France,France,France (la),geospatial,country
+French Guiana,French Guiana,Guyane française (la ),geospatial,country
+French Polynesia,French Polynesia,Polynésie française (la),geospatial,country
+French Southern Territories (the),French Southern Territories (the),Terres australes françaises (les),geospatial,country
+Gabon,Gabon,Gabon (le),geospatial,country
+Gambia (the),Gambia (the),Gambie (la),geospatial,country
+Georgia,Georgia,Géorgie (la),geospatial,country
+Germany,Germany,Allemagne (l'),geospatial,country
+Ghana,Ghana,Ghana (le),geospatial,country
+Gibraltar,Gibraltar,Gibraltar,geospatial,country
+Greece,Greece,Grèce (la),geospatial,country
+Greenland,Greenland,Groenland (le),geospatial,country
+Grenada,Grenada,Grenade (la),geospatial,country
+Guadeloupe,Guadeloupe,Guadeloupe (la),geospatial,country
+Guam,Guam,Guam,geospatial,country
+Guatemala,Guatemala,Guatemala (le),geospatial,country
+Guernsey,Guernsey,Guernesey,geospatial,country
+Guinea,Guinea,Guinée (la),geospatial,country
+Guinea-Bissau,Guinea-Bissau,Guinée-Bissau (la),geospatial,country
+Guyana,Guyana,Guyana (le),geospatial,country
+Haiti,Haiti,Haïti,geospatial,country
+Heard Island and McDonald Islands,Heard Island and McDonald Islands,Heard-et-Îles MacDonald (l'Île),geospatial,country
+Holy See (the),Holy See (the),Saint-Siège (le),geospatial,country
+Honduras,Honduras,Honduras (le),geospatial,country
+Hong Kong,Hong Kong,Hong Kong,geospatial,country
+Hungary,Hungary,Hongrie (la),geospatial,country
+Iceland,Iceland,Islande (l'),geospatial,country
+India,India,Inde (l'),geospatial,country
+Indonesia,Indonesia,Indonésie (l'),geospatial,country
+Iran (Islamic Republic of),Iran (Islamic Republic of),Iran (République Islamique d'),geospatial,country
+Iraq,Iraq,Iraq (l'),geospatial,country
+Ireland,Ireland,Irlande (l'),geospatial,country
+Isle of Man,Isle of Man,Île de Man,geospatial,country
+Israel,Israel,Israël,geospatial,country
+Italy,Italy,Italie (l'),geospatial,country
+Jamaica,Jamaica,Jamaïque (la),geospatial,country
+Japan,Japan,Japon (le),geospatial,country
+Jersey,Jersey,Jersey,geospatial,country
+Jordan,Jordan,Jordanie (la),geospatial,country
+Kazakhstan,Kazakhstan,Kazakhstan (le),geospatial,country
+Kenya,Kenya,Kenya (le),geospatial,country
+Kiribati,Kiribati,Kiribati,geospatial,country
+Korea (the Democratic People's Republic of),Korea (the Democratic People's Republic of),Corée (la République populaire démocratique de),geospatial,country
+Korea (the Republic of),Korea (the Republic of),Corée (la République de),geospatial,country
+Kuwait,Kuwait,Koweït (le),geospatial,country
+Kyrgyzstan,Kyrgyzstan,Kirghizistan (le),geospatial,country
+Lao People's Democratic Republic (the),Lao People's Democratic Republic (the),Lao (la République démocratique populaire),geospatial,country
+Latvia,Latvia,Lettonie (la),geospatial,country
+Lebanon,Lebanon,Liban (le),geospatial,country
+Lesotho,Lesotho,Lesotho (le),geospatial,country
+Liberia,Liberia,Libéria (le),geospatial,country
+Libya,Libya,Libye (la),geospatial,country
+Liechtenstein,Liechtenstein,Liechtenstein (le),geospatial,country
+Lithuania,Lithuania,Lituanie (la),geospatial,country
+Luxembourg,Luxembourg,Luxembourg (le),geospatial,country
+Macao,Macao,Macao,geospatial,country
+Madagascar,Madagascar,Madagascar,geospatial,country
+Malawi,Malawi,Malawi (le),geospatial,country
+Malaysia,Malaysia,Malaisie (la),geospatial,country
+Maldives,Maldives,Maldives (les),geospatial,country
+Mali,Mali,Mali (le),geospatial,country
+Malta,Malta,Malte,geospatial,country
+Marshall Islands (the),Marshall Islands (the),Marshall (les Îles),geospatial,country
+Martinique,Martinique,Martinique (la),geospatial,country
+Mauritania,Mauritania,Mauritanie (la),geospatial,country
+Mauritius,Mauritius,Maurice,geospatial,country
+Mayotte,Mayotte,Mayotte,geospatial,country
+Mexico,Mexico,Mexique (le),geospatial,country
+Micronesia (Federated States of),Micronesia (Federated States of),Micronésie (États fédérés de),geospatial,country
+Moldova (the Republic of),Moldova (the Republic of),Moldova (la République de),geospatial,country
+Monaco,Monaco,Monaco,geospatial,country
+Mongolia,Mongolia,Mongolie (la),geospatial,country
+Montenegro,Montenegro,Monténégro (le),geospatial,country
+Montserrat,Montserrat,Montserrat,geospatial,country
+Morocco,Morocco,Maroc (le),geospatial,country
+Mozambique,Mozambique,Mozambique (le),geospatial,country
+Myanmar,Myanmar,Myanmar (le),geospatial,country
+Namibia,Namibia,Namibie (la),geospatial,country
+Nauru,Nauru,Nauru,geospatial,country
+Nepal,Nepal,Népal (le),geospatial,country
+Netherlands (the),Netherlands (the),Pays-Bas (les),geospatial,country
+New Caledonia,New Caledonia,Nouvelle-Calédonie (la),geospatial,country
+New Zealand,New Zealand,Nouvelle-Zélande (la),geospatial,country
+Nicaragua,Nicaragua,Nicaragua (le),geospatial,country
+Niger (the),Niger (the),Niger (le),geospatial,country
+Nigeria,Nigeria,Nigéria (le),geospatial,country
+Niue,Niue,Niue,geospatial,country
+Norfolk Island,Norfolk Island,Norfolk (l'Île),geospatial,country
+North Macedonia,North Macedonia,Macédoine du Nord (la),geospatial,country
+Northern Mariana Islands (the),Northern Mariana Islands (the),Mariannes du Nord (les Îles),geospatial,country
+Norway,Norway,Norvège (la),geospatial,country
+Oman,Oman,Oman,geospatial,country
+Pakistan,Pakistan,Pakistan (le),geospatial,country
+Palau,Palau,Palaos (les),geospatial,country
+"Palestine, State of","Palestine, State of","Palestine, État de",geospatial,country
+Panama,Panama,Panama (le),geospatial,country
+Papua New Guinea,Papua New Guinea,Papouasie-Nouvelle-Guinée (la),geospatial,country
+Paraguay,Paraguay,Paraguay (le),geospatial,country
+Peru,Peru,Pérou (le),geospatial,country
+Philippines (the),Philippines (the),Philippines (les),geospatial,country
+Pitcairn,Pitcairn,Pitcairn,geospatial,country
+Poland,Poland,Pologne (la),geospatial,country
+Portugal,Portugal,Portugal (le),geospatial,country
+Puerto Rico,Puerto Rico,Porto Rico,geospatial,country
+Qatar,Qatar,Qatar (le),geospatial,country
+Romania,Romania,Roumanie (la),geospatial,country
+Russian Federation (the),Russian Federation (the),Russie (la Fédération de),geospatial,country
+Rwanda,Rwanda,Rwanda (le),geospatial,country
+Réunion,Réunion,Réunion (La),geospatial,country
+Saint Barthélemy,Saint Barthélemy,Saint-Barthélemy,geospatial,country
+"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha","Sainte-Hélène, Ascension et Tristan da Cunha",geospatial,country
+Saint Kitts and Nevis,Saint Kitts and Nevis,Saint-Kitts-et-Nevis,geospatial,country
+Saint Lucia,Saint Lucia,Sainte-Lucie,geospatial,country
+Saint Martin (French part),Saint Martin (French part),Saint-Martin (partie française),geospatial,country
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,Saint-Pierre-et-Miquelon,geospatial,country
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Saint-Vincent-et-les Grenadines,geospatial,country
+Samoa,Samoa,Samoa (le),geospatial,country
+San Marino,San Marino,Saint-Marin,geospatial,country
+Sao Tome and Principe,Sao Tome and Principe,Sao Tomé-et-Principe,geospatial,country
+Saudi Arabia,Saudi Arabia,Arabie saoudite (l'),geospatial,country
+Senegal,Senegal,Sénégal (le),geospatial,country
+Serbia,Serbia,Serbie (la),geospatial,country
+Seychelles,Seychelles,Seychelles (les),geospatial,country
+Sierra Leone,Sierra Leone,Sierra Leone (la),geospatial,country
+Singapore,Singapore,Singapour,geospatial,country
+Sint Maarten (Dutch part),Sint Maarten (Dutch part),Saint-Martin (partie néerlandaise),geospatial,country
+Slovakia,Slovakia,Slovaquie (la),geospatial,country
+Slovenia,Slovenia,Slovénie (la),geospatial,country
+Solomon Islands,Solomon Islands,Salomon (les Îles),geospatial,country
+Somalia,Somalia,Somalie (la),geospatial,country
+South Africa,South Africa,Afrique du Sud (l'),geospatial,country
+South Georgia and the South Sandwich Islands,South Georgia and the South Sandwich Islands,Géorgie du Sud-et-les Îles Sandwich du Sud (la),geospatial,country
+South Sudan,South Sudan,Soudan du Sud (le),geospatial,country
+Spain,Spain,Espagne (l'),geospatial,country
+Sri Lanka,Sri Lanka,Sri Lanka,geospatial,country
+Sudan (the),Sudan (the),Soudan (le),geospatial,country
+Suriname,Suriname,Suriname (le),geospatial,country
+Svalbard and Jan Mayen,Svalbard and Jan Mayen,Svalbard et l'Île Jan Mayen (le),geospatial,country
+Sweden,Sweden,Suède (la),geospatial,country
+Switzerland,Switzerland,Suisse (la),geospatial,country
+Syrian Arab Republic (the),Syrian Arab Republic (the),République arabe syrienne (la),geospatial,country
+Taiwan (Province of China),Taiwan (Province of China),Taïwan (Province de Chine),geospatial,country
+Tajikistan,Tajikistan,Tadjikistan (le),geospatial,country
+"Tanzania, the United Republic of","Tanzania, the United Republic of",Tanzanie (la République-Unie de),geospatial,country
+Thailand,Thailand,Thaïlande (la),geospatial,country
+Timor-Leste,Timor-Leste,Timor-Leste (le),geospatial,country
+Togo,Togo,Togo (le),geospatial,country
+Tokelau,Tokelau,Tokelau (les),geospatial,country
+Tonga,Tonga,Tonga (les),geospatial,country
+Trinidad and Tobago,Trinidad and Tobago,Trinité-et-Tobago (la),geospatial,country
+Tunisia,Tunisia,Tunisie (la),geospatial,country
+Turkey,Turkey,Turquie (la),geospatial,country
+Turkmenistan,Turkmenistan,Turkménistan (le),geospatial,country
+Turks and Caicos Islands (the),Turks and Caicos Islands (the),Turks-et-Caïcos (les Îles),geospatial,country
+Tuvalu,Tuvalu,Tuvalu (les),geospatial,country
+Uganda,Uganda,Ouganda (l'),geospatial,country
+Ukraine,Ukraine,Ukraine (l'),geospatial,country
+United Arab Emirates (the),United Arab Emirates (the),Émirats arabes unis (les),geospatial,country
+United Kingdom of Great Britain and Northern Ireland (the),United Kingdom of Great Britain and Northern Ireland (the),Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le),geospatial,country
+United States Minor Outlying Islands (the),United States Minor Outlying Islands (the),Îles mineures éloignées des États-Unis (les),geospatial,country
+United States of America (the),United States of America (the),États-Unis d'Amérique (les),geospatial,country
+Uruguay,Uruguay,Uruguay (l'),geospatial,country
+Uzbekistan,Uzbekistan,Ouzbékistan (l'),geospatial,country
+Vanuatu,Vanuatu,Vanuatu (le),geospatial,country
+Venezuela (Bolivarian Republic of),Venezuela (Bolivarian Republic of),Venezuela (République bolivarienne du),geospatial,country
+Viet Nam,Viet Nam,Viet Nam (le),geospatial,country
+Virgin Islands (British),Virgin Islands (British),Vierges britanniques (les Îles),geospatial,country
+Virgin Islands (U.S.),Virgin Islands (U.S.),Vierges des États-Unis (les Îles),geospatial,country
+Wallis and Futuna,Wallis and Futuna,Wallis-et-Futuna,geospatial,country
+Western Sahara*,Western Sahara*,Sahara occidental (le)*,geospatial,country
+Yemen,Yemen,Yémen (le),geospatial,country
+Zambia,Zambia,Zambie (la),geospatial,country
+Zimbabwe,Zimbabwe,Zimbabwe (le),geospatial,country
+Åland Islands,Åland Islands,Åland(les Îles),geospatial,country

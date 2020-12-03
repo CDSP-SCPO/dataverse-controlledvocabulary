@@ -1,0 +1,264 @@
+#metadataBlock	name	dataverseAlias   displayName													
+	geospatial		Geospatial Metadata												
+#datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	geographicCoverage	Geographic Coverage	Information on the geographic coverage of the data. Includes the total geographic scope of the data.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		geospatial
+	country	Country / Nation	The country or nation that the Dataset is about.		text	1	#VALUE, 	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	geographicCoverage	geospatial
+	state	State / Province	The state or province that the Dataset is about. Use GeoNames for correct spelling and avoid abbreviations.		text	2	#VALUE, 	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	geographicCoverage	geospatial
+	city	City	The name of the city that the Dataset is about. Use GeoNames for correct spelling and avoid abbreviations.		text	3	#VALUE, 	TRUE	FALSE	FALSE	TRUE	FALSE	FALSE	geographicCoverage	geospatial
+	otherGeographicCoverage	Other	Other information on the geographic coverage of the data.		text	4	#VALUE, 	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	geographicCoverage	geospatial
+	geographicUnit	Geographic Unit	Lowest level of geographic aggregation covered by the Dataset, e.g., village, county, region.		text	5		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		geospatial
+	geographicBoundingBox	Geographic Bounding Box	The fundamental geometric description for any Dataset that models geography is the geographic bounding box. It describes the minimum box, defined by west and east longitudes and north and south latitudes, which includes the largest geographic extent of the  Dataset's geographic coverage. This element is used in the first pass of a coordinate-based search. Inclusion of this element in the codebook is recommended, but is required if the bound polygon box is included. 		none	6		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		geospatial
+	westLongitude	West Longitude	Westernmost coordinate delimiting the geographic extent of the Dataset. A valid range of values,  expressed in decimal degrees, is -180,0 <= West  Bounding Longitude Value <= 180,0.		text	7		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	geographicBoundingBox	geospatial
+	eastLongitude	East Longitude	Easternmost coordinate delimiting the geographic extent of the Dataset. A valid range of values,  expressed in decimal degrees, is -180,0 <= East Bounding Longitude Value <= 180,0.		text	8		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	geographicBoundingBox	geospatial
+	northLongitude	North Latitude	Northernmost coordinate delimiting the geographic extent of the Dataset. A valid range of values,  expressed in decimal degrees, is -90,0 <= North Bounding Latitude Value <= 90,0.		text	9		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	geographicBoundingBox	geospatial
+	southLongitude	South Latitude	Southernmost coordinate delimiting the geographic extent of the Dataset. A valid range of values,  expressed in decimal degrees, is -90,0 <= South Bounding Latitude Value <= 90,0.		text	10		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE	geographicBoundingBox	geospatial
+#controlledVocabulary	DatasetField	Value	identifier	displayOrder											
+	country	Afghanistan	AF	0											
+	country	Albania	AL	1											
+	country	Algeria	DZ	2											
+	country	American Samoa	AS	3											
+	country	Andorra	AD	4											
+	country	Angola	AO	5											
+	country	Anguilla	AI	6											
+	country	Antarctica	AQ	7											
+	country	Antigua and Barbuda	AG	8											
+	country	Argentina	AR	9											
+	country	Armenia	AM	10											
+	country	Aruba	AW	11											
+	country	Australia	AU	12											
+	country	Austria	AT	13											
+	country	Azerbaijan	AZ	14											
+	country	Bahamas	BS	15											
+	country	Bahrain	BH	16											
+	country	Bangladesh	BD	17											
+	country	Barbados	BB	18											
+	country	Belarus	BY	19											
+	country	Belgium	BE	20											
+	country	Belize	BZ	21											
+	country	Benin	BJ	22											
+	country	Bermuda	BM	23											
+	country	Bhutan	BT	24											
+	country	Bolivia, Plurinational State of	BO	25											
+	country	Bonaire, Sint Eustatius and Saba	BQ	26											
+	country	Bosnia and Herzegovina	BA	27											
+	country	Botswana	BW	28	BOTSWANA										
+	country	Bouvet Island	BV	29											
+	country	Brazil	BR	30	Brasil										
+	country	British Indian Ocean Territory	IO	31											
+	country	Brunei Darussalam	BN	32											
+	country	Bulgaria	BG	33											
+	country	Burkina Faso	BF	34											
+	country	Burundi	BI	35											
+	country	Cambodia	CV	36											
+	country	Cameroon	KH	37											
+	country	Canada	CM	38											
+	country	Cape Verde	CA	39											
+	country	Cayman Islands	KY	40											
+	country	Central African Republic	CF	41											
+	country	Chad	TD	42											
+	country	Chile	CL	43											
+	country	China	CN	44											
+	country	Christmas Island	CX	45											
+	country	Cocos (Keeling) Islands	CC	46											
+	country	Colombia	CO	47											
+	country	Comoros	KM	48											
+	country	Congo	CD	49											
+	country	Congo, the Democratic Republic of the	CG	50											
+	country	Cook Islands	CK	51											
+	country	Costa Rica	CR	52											
+	country	Croatia	HR	53											
+	country	Cuba	CU	54											
+	country	Curaçao	CW	55											
+	country	Cyprus	CY	56											
+	country	Czech Republic	CZ	57											
+	country	Côte d'Ivoire	CI	58											
+	country	Denmark	DK	59											
+	country	Djibouti	DJ	60											
+	country	Dominica	DM	61											
+	country	Dominican Republic	DO	62											
+	country	Ecuador	EC	63											
+	country	Egypt	EG	64											
+	country	El Salvador	SV	65											
+	country	Equatorial Guinea	GQ	66											
+	country	Eritrea	ER	67											
+	country	Estonia	EE	68											
+	country	Ethiopia	SZ	69											
+	country	Falkland Islands (Malvinas)	ET	70											
+	country	Faroe Islands	FK	71											
+	country	Fiji	FO	72											
+	country	Finland	FJ	73											
+	country	France	FI	74											
+	country	French Guiana	FR	75											
+	country	French Polynesia	GF	76											
+	country	French Southern Territories	PF	77											
+	country	Gabon	TF	78											
+	country	Gambia	GA	79	Gambia, The										
+	country	Georgia	GM	80											
+	country	Germany	GE	81	Germany (Federal Republic of)										
+	country	Ghana	DE	82	GHANA										
+	country	Gibraltar	GH	83											
+	country	Greece	GI	84											
+	country	Greenland	GR	85											
+	country	Grenada	GL	86											
+	country	Guadeloupe	GD	87											
+	country	Guam	GP	88											
+	country	Guatemala	GU	89											
+	country	Guernsey	GT	90											
+	country	Guinea	GG	91											
+	country	Guinea-Bissau	GN	92											
+	country	Guyana	GW	93											
+	country	Haiti	GY	94											
+	country	Heard Island and Mcdonald Islands	HT	95											
+	country	Holy See (Vatican City State)	HM	96											
+	country	Honduras	VA	97											
+	country	Hong Kong	HN	98											
+	country	Hungary	HK	99											
+	country	Iceland	HU	100											
+	country	India	IS	101	INDIA										
+	country	Indonesia	IN	102	Sumatra										
+	country	Iran, Islamic Republic of	ID	103	Iran	Iran (Islamic Republic of)									
+	country	Iraq	IR	104	IRAQ										
+	country	Ireland	IQ	105											
+	country	Isle of Man	IE	106											
+	country	Israel	IM	107											
+	country	Italy	IL	108											
+	country	Jamaica	IT	109											
+	country	Japan	JM	110											
+	country	Jersey	JP	111											
+	country	Jordan	JE	112											
+	country	Kazakhstan	JO	113											
+	country	Kenya	KZ	114											
+	country	Kiribati	KE	115											
+	country	Korea, Democratic People's Republic of	KI	116											
+	country	Korea, Republic of	KP	117											
+	country	Kuwait	KR	118											
+	country	Kyrgyzstan	KW	119											
+	country	Lao People's Democratic Republic	KG	120	Laos										
+	country	Latvia	LA	121											
+	country	Lebanon	LV	122											
+	country	Lesotho	LB	123	LESOTHO										
+	country	Liberia	LS	124											
+	country	Libya	LR	125											
+	country	Liechtenstein	LY	126											
+	country	Lithuania	LI	127											
+	country	Luxembourg	LT	128											
+	country	Macao	LU	129											
+	country	Macedonia, the Former Yugoslav Republic of	MO	130											
+	country	Madagascar	MG	131											
+	country	Malawi	MW	132											
+	country	Malaysia	MY	133											
+	country	Maldives	MV	134											
+	country	Mali	ML	135											
+	country	Malta	MT	136											
+	country	Marshall Islands	MH	137											
+	country	Martinique	MQ	138											
+	country	Mauritania	MR	139											
+	country	Mauritius	MU	140											
+	country	Mayotte	YT	141											
+	country	Mexico	MX	142											
+	country	Micronesia, Federated States of	FM	143											
+	country	Moldova, Republic of	MD	144											
+	country	Monaco	MC	145											
+	country	Mongolia	MN	146											
+	country	Montenegro	ME	147											
+	country	Montserrat	MS	148											
+	country	Morocco	MA	149											
+	country	Mozambique	MZ	150	MOZAMBIQUE										
+	country	Myanmar	MM	151											
+	country	Namibia	NA	152	NAMIBIA										
+	country	Nauru	NR	153											
+	country	Nepal	NP	154											
+	country	Netherlands	NL	155											
+	country	New Caledonia	NC	156											
+	country	New Zealand	NZ	157											
+	country	Nicaragua	NI	158											
+	country	Niger	NE	159											
+	country	Nigeria	NG	160											
+	country	Niue	NU	161											
+	country	Norfolk Island	NF	162											
+	country	Northern Mariana Islands	MK	163											
+	country	Norway	MP	164											
+	country	Oman	NO	165											
+	country	Pakistan	OM	166											
+	country	Palau	PK	167											
+	country	Palestine, State of	PW	168											
+	country	Panama	PS	169											
+	country	Papua New Guinea	PA	170											
+	country	Paraguay	PG	171											
+	country	Peru	PY	172											
+	country	Philippines	PE	173											
+	country	Pitcairn	PH	174											
+	country	Poland	PN	175											
+	country	Portugal	PL	176											
+	country	Puerto Rico	PT	177											
+	country	Qatar	PR	178											
+	country	Romania	QA	179											
+	country	Russian Federation	RO	180											
+	country	Rwanda	RU	181											
+	country	Réunion	RW	182											
+	country	Saint Barthélemy	RE	183											
+	country	Saint Helena, Ascension and Tristan da Cunha	BL	184											
+	country	Saint Kitts and Nevis	SH	185											
+	country	Saint Lucia	KN	186											
+	country	Saint Martin (French part)	LC	187											
+	country	Saint Pierre and Miquelon	MF	188											
+	country	Saint Vincent and the Grenadines	PM	189											
+	country	Samoa	VC	190											
+	country	San Marino	WS	191											
+	country	Sao Tome and Principe	SM	192											
+	country	Saudi Arabia	ST	193											
+	country	Senegal	SA	194											
+	country	Serbia	SN	195											
+	country	Seychelles	RS	196											
+	country	Sierra Leone	SC	197											
+	country	Singapore	SL	198											
+	country	Sint Maarten (Dutch part)	SG	199											
+	country	Slovakia	SX	200											
+	country	Slovenia	SK	201											
+	country	Solomon Islands	SI	202											
+	country	Somalia	SB	203											
+	country	South Africa	SO	204											
+	country	South Georgia and the South Sandwich Islands	ZA	205											
+	country	South Sudan	GS	206											
+	country	Spain	SS	207											
+	country	Sri Lanka	ES	208											
+	country	Sudan	LK	209											
+	country	Suriname	SD	210											
+	country	Svalbard and Jan Mayen	SR	211											
+	country	Swaziland	SJ	212	SWAZILAND										
+	country	Sweden	SE	213											
+	country	Switzerland	CH	214											
+	country	Syrian Arab Republic	SY	215											
+	country	Taiwan, Province of China	TW	216	Taiwan										
+	country	Tajikistan	TJ	217											
+	country	Tanzania, United Republic of	TZ	218	Tanzania										
+	country	Thailand	TH	219											
+	country	Timor-Leste	TL	220											
+	country	Togo	TG	221											
+	country	Tokelau	TK	222											
+	country	Tonga	TO	223											
+	country	Trinidad and Tobago	TT	224											
+	country	Tunisia	TN	225											
+	country	Turkey	TR	226											
+	country	Turkmenistan	TM	227											
+	country	Turks and Caicos Islands	TC	228											
+	country	Tuvalu	TV	229											
+	country	Uganda	UG	230											
+	country	Ukraine	UA	231											
+	country	United Arab Emirates	AE	232	UAE										
+	country	United Kingdom	GB	233											
+	country	United States	UM	234	U.S.A	USA	United States of America	U.S.A.							
+	country	United States Minor Outlying Islands	US	235											
+	country	Uruguay	UY	236											
+	country	Uzbekistan	UZ	237											
+	country	Vanuatu	VU	238											
+	country	Venezuela, Bolivarian Republic of	VE	239											
+	country	Viet Nam	VN	240											
+	country	Virgin Islands, British	VG	241											
+	country	Virgin Islands, U.S.	VI	242											
+	country	Wallis and Futuna	WF	243											
+	country	Western Sahara	EH	244											
+	country	Yemen	YE	245	YEMEN										
+	country	Zambia	ZM	246											
+	country	Zimbabwe	ZW	247											
+	country	Åland Islands	AX	248											
