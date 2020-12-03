@@ -5,7 +5,7 @@ We used the
 
 Borschewski, Kerrin, Hermann, Julia, Zenk-Möltgen, Wolfgang, Bockaj, Brigita, Bolko, Irena, Vipavc Brvar, Irena, … Bell, Darren. (2019). CMM CESSDA Metadata Model (Version 0.1). Zenodo.
 
-
+We consulted also this Metadata Crosswalk: The Dataverse Project. (2020, February). Dataverse 4.0+ Metadata Crosswalk. https://docs.google.com/spreadsheets/d/10Luzti7svVTVKTA-px27oq3RxCUM-QbiTkm8iMd5C54
 citation.tsv:
 - [x] KindOfData -> kindOfDataType
 - [X] TopicClassification -> topicClassValue
