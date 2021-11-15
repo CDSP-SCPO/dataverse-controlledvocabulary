@@ -20,7 +20,7 @@ social_science.tsv:
 (Meaning: <cessda_field> -> <dataverse_field>)
 
 
-`create-properties.py`: script to generate dataverse properties for the controlled vocabulary. These properties are used to configure the displayed names of the CV and the translations.
+`create-properties.py`: script to generate dataverse properties from a CSV containing controlled vocabulary (see `controlled_vocabulary.csv`). These properties are used to configure the displayed names of the CV and the translations.
 
 To update the country values with ISO 3166, we have to upload two TSV files:
 - `geospatial_1.tsv` adds the IDs to each value
