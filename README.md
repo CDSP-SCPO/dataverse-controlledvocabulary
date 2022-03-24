@@ -13,18 +13,18 @@ Borschewski, Kerrin, Hermann, Julia, Zenk-Möltgen, Wolfgang, Bockaj, Brigita, B
 We consulted also this Metadata Crosswalk: The Dataverse Project. (2020, February). Dataverse 4.0+ Metadata Crosswalk. https://docs.google.com/spreadsheets/d/10Luzti7svVTVKTA-px27oq3RxCUM-QbiTkm8iMd5C54
 
 
-### Fields added or modified (`<cessda_field>` -> `<dataverse_field>`)
+### Fields added or modified (`<cessda_field>` → `<dataverse_field>`)
 
 `citation.tsv`:
-- [x] `KindOfData` -> `kindOfDataType`
-- [X] `TopicClassification` -> `topicClassValue`
+- [x] `KindOfData` → `kindOfDataType`
+- [X] `TopicClassification` → `topicClassValue`
 
 `social_science.tsv`:
-- [x] `AnalysisUnit` -> `unitOfAnalysisv
-- [x] `ModeOfCollection` -> `collectionMode`
-- [x] `SamplingProcedure` -> `samplingProcedure`
-- [x] `TimeMethod` -> `timeMethod`
-- [x] `TypeOfInstrument` -> `researchInstrument`
+- [x] `AnalysisUnit` → `unitOfAnalysis`
+- [x] `ModeOfCollection` → `collectionMode`
+- [x] `SamplingProcedure` → `samplingProcedure`
+- [x] `TimeMethod` → `timeMethod`
+- [x] `TypeOfInstrument` → `researchInstrument`
 
 We also changed the `geospacial.tsv` file to update country values using ISO 3166. We needed to update the values in two steps:
 1. `geospatial_0.tsv` adds the IDs to each value
