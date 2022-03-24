@@ -1,4 +1,4 @@
-#metadataBlock	name	dataverseAlias   displayName													
+#metadataBlock	name	dataverseAlias	displayName
 	geospatial		Geospatial Metadata												
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
 	geographicCoverage	Geographic Coverage	Information on the geographic coverage of the data. Includes the total geographic scope of the data.		none	0		FALSE	FALSE	TRUE	FALSE	FALSE	FALSE		geospatial
