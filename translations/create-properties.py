@@ -5,7 +5,7 @@ import shutil
 from collections import defaultdict
 from operator import itemgetter
 
-OUTPUT_DIR = 'output'
+OUTPUT_DIR = 'custom'
 LANGUAGES = ['en_US', 'fr_FR']
 
 

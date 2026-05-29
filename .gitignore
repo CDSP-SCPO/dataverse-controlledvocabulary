@@ -1,0 +1,14 @@
+# Ignore original files
+*_orig.tsv
+
+# Ignore zip files
+*.zip
+
+# Ignore extracted language packs
+language_*/
+
+# Ignore merged metadata files
+/citation.tsv
+/social_science.tsv
+/geospatial.tsv
+/geospatial_0.tsv
