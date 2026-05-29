@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: "*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate metadatablocks and translations
+        run: |
+          DV_VERSION=$(cat DATAVERSE-VERSION | tr -d '\n')
+          ./metadatablocks/create-metadatablocks.sh "${DV_VERSION}"
+          ./translations/create-languagepack.sh "${DV_VERSION}"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v7
+        with:
+          name: build-artifacts
+          path: |
+            citation.tsv
+            social_science.tsv
+            geospatial_0.tsv
+            geospatial.tsv
+            language_*.zip
+          retention-days: 3

@@ -1,0 +1,32 @@
+name: Release to GH
+
+on:
+  push:
+    tags:
+      - "v*" # Run workflow on version tags, e.g. v1.0.0.
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate metadatablocks and translations
+        run: |
+          DV_VERSION=$(cat DATAVERSE-VERSION | tr -d '\n')
+          ./metadatablocks/create-metadatablocks.sh "${DV_VERSION}"
+          ./translations/create-languagepack.sh "${DV_VERSION}"
+
+      - name: Release
+        uses: softprops/action-gh-release@v3
+        with:
+          files: |
+            citation.tsv
+            social_science.tsv
+            geospatial_0.tsv
+            geospatial.tsv
+            language_*.zip
