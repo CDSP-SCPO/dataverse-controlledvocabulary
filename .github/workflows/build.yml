@@ -17,12 +17,13 @@ jobs:
         run: |
           DV_VERSION=$(cat DATAVERSE-VERSION | tr -d '\n')
           ./translations/create-languagepack.sh "${DV_VERSION}"
+          cp metadatablocks/*.tsv .
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v7
         with:
           name: build-artifacts
           path: |
-            metadatablocks/*.tsv
+            *.tsv
             language_*.zip
           retention-days: 3
