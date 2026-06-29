@@ -16,7 +16,6 @@ jobs:
       - name: Generate metadatablocks and translations
         run: |
           DV_VERSION=$(cat DATAVERSE-VERSION | tr -d '\n')
-          ./metadatablocks/create-metadatablocks.sh "${DV_VERSION}"
           ./translations/create-languagepack.sh "${DV_VERSION}"
 
       - name: Upload artifacts
@@ -24,9 +23,6 @@ jobs:
         with:
           name: build-artifacts
           path: |
-            citation.tsv
-            social_science.tsv
-            geospatial_0.tsv
-            geospatial.tsv
+            metadatablocks/*.tsv
             language_*.zip
           retention-days: 3
