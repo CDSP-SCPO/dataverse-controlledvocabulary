@@ -19,10 +19,11 @@ jobs:
         run: |
           DV_VERSION=$(cat DATAVERSE-VERSION | tr -d '\n')
           ./translations/create-languagepack.sh "${DV_VERSION}"
+          cp metadatablocks/*.tsv .
 
       - name: Release
         uses: softprops/action-gh-release@v3
         with:
           files: |
-            metadatablocks/*.tsv
+            *.tsv
             language_*.zip

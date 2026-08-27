@@ -19,10 +19,22 @@ def merge_files(fp_1, fp_2):
     # Read properties of second file
     props = read_prop_file(fp_2)
 
+    # First read the file to check if there is a new line at the end
+    new_line = False
+    with open(fp_1, mode="r", encoding=ENCODING) as fd:
+        # Check if there is a new line
+        lines = fd.readlines()
+        if len(lines) > 0 and lines[-1] == "\n":
+            new_line = True
+
     # Merge them to first file
     with open(fp_1, mode="a", encoding=ENCODING) as fd:
-        for k, v in props.items():
-            print(f"{k}={v}", file=fd)
+        # Add a new line first if there is no new line at the end of the file
+        for i, (k, v) in enumerate(props.items()):
+            if i == 0 and not new_line:
+                print(f"\n{k}={v}", file=fd)
+            else:
+                print(f"{k}={v}", file=fd)
         fd.truncate()
 
 

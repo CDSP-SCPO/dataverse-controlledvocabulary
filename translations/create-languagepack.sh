@@ -27,7 +27,7 @@ cp -r translations/fr_FR/* "${TMPDIR}/language_pack/"
 # Merge citation and socialsciences properties
 for file in "citation" "geospatial" "socialscience"; do
   python3 translations/merge-properties.py "${TMPDIR}/language_pack/${file}.properties" "translations/custom/en_US/${file}.properties"
-  python3 translations/merge-properties.py "${TMPDIR}/language_pack/${file}_fr.properties" "translations/custom/fr_FR/${file}_fr.properties"
+  # python3 translations/merge-properties.py "${TMPDIR}/language_pack/${file}_fr.properties" "translations/custom/fr_FR/${file}_fr.properties"
 done 
 
 # Zip folder
